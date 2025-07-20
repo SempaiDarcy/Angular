@@ -3,16 +3,16 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { MyCalculatorComponent } from './my-calculator/my-calculator.component';
-import {FormsModule} from "@angular/forms";
+import {FormsModule, ReactiveFormsModule} from "@angular/forms";
 
 @NgModule({
   declarations: [
     AppComponent,
-    MyCalculatorComponent
+    MyCalculatorComponent,
   ],
   imports: [
     BrowserModule,
-    // ReactiveFormsModule,
+    ReactiveFormsModule,
     FormsModule
   ],
   providers: [],
